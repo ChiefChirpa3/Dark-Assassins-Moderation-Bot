@@ -1,0 +1,25 @@
+{
+  "name": "dark-assassins-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.5.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "discord-api-types": "^0.22.0",
+    "discord-buttons": "^4.0.0",
+    "discord-giveaways": "^4.5.1",
+    "discord-reply": "^0.1.2",
+    "discord.js": "^12.5.3",
+    "discord.js-commando": "^0.12.3",
+    "dotenv": "^10.0.0",
+    "mongoose": "^5.13.7",
+    "ms": "^2.1.3"
+  }
+}
