@@ -83,7 +83,7 @@ mongoose.connect(process.env.MONGODB_SRV, {
 }).then(() => {
 	console.log('Connected to database');
 }).catch((err) => {
-	console.loog(err);
+	console.log(err);
 });
 
 client.login(process.env.DISCORD_TOKEN);
