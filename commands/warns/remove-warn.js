@@ -9,7 +9,7 @@ module.exports = {
         const lastMessage = await message.channel.messages.fetch({ limit: 1 });
         const lastSendMessage = lastMessage.last();
 
-        if(!message.member.hasPermission('ADMINISTRATOR'))
+        if(!message.member.hasPermission('MANAGE_ROLES'))
             return lastSendMessage.lineReplyNoMention('You do not have permission to use this command.');
         
         const user = message.mentions.members.first() || message.guild.members.cache.get(args[0]);
